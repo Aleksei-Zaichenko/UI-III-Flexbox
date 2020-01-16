@@ -157,7 +157,7 @@ h1 {
 	margin-right: 4%;
 }
 
-div a{
+address div a{
 	display: flex;
 	flex-flow:column;
 	padding-top: .2%;
