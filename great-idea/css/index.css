@@ -132,8 +132,6 @@ h1 {
 	margin: 4% 0;
 }
 
-
-
 #thirdGroup div {
 	margin-bottom: 2.5%;
 	display:flex;
@@ -166,4 +164,49 @@ address div a{
 
 h6{
 	text-align: center;
+}
+
+
+/*CSS code for services.html*/
+
+.ServicesPageFirstGroup{
+	border-bottom: 1px black solid;
+	padding: 1.5% 0;
+}
+
+.ServicesPageFirstGroup div {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+.ServicesPageFirstGroup div div{
+	border: 1px black solid;
+	background: lightgrey;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	padding: 2%;
+	margin: 2% 0;
+}
+
+#Ending {
+	display:flex;
+	padding-top: 4%;
+}
+
+#Ending div {
+	display:flex;
+	flex-flow: column;
+}
+
+
+
+.FactsAndList {
+	padding-right: 12%;
+}
+
+ul li{
+	
+	padding-top: 1%;
 }
