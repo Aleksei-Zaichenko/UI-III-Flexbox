@@ -168,7 +168,29 @@ h6{
 
 
 /*CSS code for services.html*/
+.LinksAndLogo{
+	
+	display: flex;
+	flex-flow: row;
+	
+	align-items: center;
+	margin-bottom: 1.6%;
+}
 
+.LinksAndLogo div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.LinksAndLogo nav a{
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+}
+
+.services{
+	margin-bottom: 3%;
+}
 .ServicesPageFirstGroup{
 	border-bottom: 1px black solid;
 	padding: 1.5% 0;
@@ -191,22 +213,35 @@ h6{
 }
 
 #Ending {
-	display:flex;
-	padding-top: 4%;
+	/*display:flex;*/
+	padding:5% 0;
 }
 
-#Ending div {
+#Ending {
+	
+	border: 1px black solid;
 	display:flex;
+	flex-flow: row;
+	justify-content: space-between;
+
+}
+
+.FeaturesAndAbout{
+	padding-right: 5%;
+}
+
+.FactsAndList div{
+	
+	border: 1px black solid;
+	/*padding-right: 12%;*/
+	display: flex;
 	flex-flow: column;
 }
 
-
-
-.FactsAndList {
-	padding-right: 12%;
+ul{
+	margin: 5%;
 }
 
 ul li{
-	
-	padding-top: 1%;
+	padding-bottom: 3%;
 }
